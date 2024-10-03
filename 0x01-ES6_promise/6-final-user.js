@@ -7,7 +7,6 @@ export default async function handleProfileSignup(firstName, lastName, fileName)
       signUpUser(firstName),
       uploadPhoto(fileName),
     ]);
-
     return [
       { status: 'fulfilled', value: signUpResponse },
       { status: 'fulfilled', value: uploadPhotoResponse },
