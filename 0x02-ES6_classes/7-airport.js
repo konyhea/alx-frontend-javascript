@@ -13,18 +13,8 @@ export default class Airport {
     this._code = code;
   }
 
-  // Getter for name
-  get name() {
-    return this._name;
-  }
-
-  // Getter for code
-  get code() {
-    return this._code;
-  }
-
-  // Default string description of the class
+  // Override the default string description
   toString() {
-    return this._code; // Returns the airport code
+    return `[object ${this._code}]`; // Format: [object CODE]
   }
 }
