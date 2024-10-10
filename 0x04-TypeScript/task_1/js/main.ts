@@ -6,3 +6,8 @@ interface Teacher {
   location: string;           // Always defined
   [key: string]: any;         // Allows adding other attributes dynamically
 }
+
+
+interface Directors extends Teacher {
+    numberOfReports: number;
+}
