@@ -1,10 +1,10 @@
 interface Teacher {
-  readonly firstName: string; // Can only be modified at initialization
-  readonly lastName: string;  // Can only be modified at initialization
-  fullTimeEmployee: boolean;  // Always defined
-  yearsOfExperience?: number; // Optional attribute
-  location: string;           // Always defined
-  [key: string]: any;         // Allows adding other attributes dynamically
+  readonly firstName: string; 
+  readonly lastName: string;  
+  fullTimeEmployee: boolean;
+  yearsOfExperience?: number;
+  location: string;           
+  [key: string]: any;         
 }
 
 
